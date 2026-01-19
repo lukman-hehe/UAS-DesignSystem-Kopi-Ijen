@@ -1,4 +1,3 @@
-// Dummy data produk best seller Kopi Ijen
 import { FaFire, FaTruck } from "react-icons/fa";
 
 export const products = [
@@ -10,7 +9,7 @@ export const products = [
         priceSuffix: "",
         rating: "4.9",
         badge: "Best Seller",
-        features: ["Fresh Roasted", "Medium Roast"], // Using string features
+        features: ["Fresh Roasted", "Medium Roast"],
         description: "Kopi arabica premium dengan notes fruity dan floral yang kuat. Paling diminati pelanggan.",
         location: "Kawah Ijen, Banyuwangi"
     },

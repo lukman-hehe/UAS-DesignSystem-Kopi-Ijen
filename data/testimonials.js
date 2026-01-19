@@ -1,4 +1,3 @@
-// Dummy data testimoni pelanggan Kopi Ijen
 export const testimonials = [
     {
         id: 1,

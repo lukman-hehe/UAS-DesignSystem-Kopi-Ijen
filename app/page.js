@@ -7,7 +7,6 @@ import { faqs } from "../data/faqs";
 import { features } from "../data/features";
 
 export default function Home() {
-  // Navbar data for HeaderVariant
   const navbarData = {
     logo: "☕ Kopi Ijen",
     links: [
@@ -20,7 +19,6 @@ export default function Home() {
     buttonText: "Pesan Sekarang",
   };
 
-  // Footer data
   const footerData = {
     brandName: "☕ Kopi Ijen Roastery",
     brandDesc: "Kopi premium asli lereng Gunung Ijen, Banyuwangi. Dipetik dari kebun terbaik, diroasting dengan cinta.",
@@ -55,16 +53,12 @@ export default function Home() {
     copyright: "© 2026 Kopi Ijen Roastery. All rights reserved.",
   };
 
-  // Handle WhatsApp CTA
   const handleWhatsAppOrder = () => {
     window.open("https://wa.me/6280000000000?text=Halo, saya ingin memesan Kopi Ijen!", "_blank");
   };
 
   return (
     <main>
-      {/* ========================================
-          NAVBAR
-          ======================================== */}
       <div id="beranda" style={{
         position: "sticky",
         top: 0,
@@ -76,9 +70,6 @@ export default function Home() {
         <HeaderVariant variant="minimal" data={navbarData} />
       </div>
 
-      {/* ========================================
-          HERO SECTION
-          ======================================== */}
       <section className="hero">
         <div className="hero-content">
           <span className="hero-badge">UMKM Banyuwangi</span>
@@ -104,9 +95,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========================================
-          KEUNGGULAN / FEATURES
-          ======================================== */}
       <section className="section section-alt">
         <div className="container">
           <div className="section-header">
@@ -127,9 +115,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========================================
-          PRODUK BEST SELLER
-          ======================================== */}
       <section id="produk" className="section">
         <div className="container">
           <div className="section-header">
@@ -167,9 +152,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========================================
-          TENTANG KOPI IJEN
-          ======================================== */}
       <section id="tentang" className="section section-alt">
         <div className="container">
           <div className="about-content">
@@ -211,9 +193,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========================================
-          TESTIMONI PELANGGAN
-          ======================================== */}
       <section id="testimoni" className="section">
         <div className="container">
           <div className="section-header">
@@ -246,9 +225,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========================================
-          FAQ SECTION
-          ======================================== */}
       <section id="faq" className="section section-alt">
         <div className="container">
           <div className="section-header">
@@ -268,9 +244,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========================================
-          CTA WHATSAPP ORDER
-          ======================================== */}
       <section className="cta-section">
         <div className="cta-content">
           <h2 className="cta-title">Siap Merasakan Kopi Premium Ijen?</h2>
@@ -285,9 +258,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========================================
-          FOOTER
-          ======================================== */}
       <div className="footer-wrapper" style={{ background: '#000' }}>
         <FooterVariant variant="stacked" data={footerData} backgroundColor="#000" />
       </div>

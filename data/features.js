@@ -1,4 +1,3 @@
-// Data fitur Kopi Ijen
 export const features = [
     {
         icon: "🌿",

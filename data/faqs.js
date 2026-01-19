@@ -1,4 +1,3 @@
-// Dummy data FAQ Kopi Ijen
 export const faqs = [
     {
         id: 1,

@@ -1,32 +1,23 @@
 @import "tailwindcss";
 
-/* ========================================
-   Kopi Ijen Roastery - Coffee Theme
-   Earth Tones, Warm Colors, Premium Feel
-   ======================================== */
-
 :root {
-  /* Primary Colors - Coffee Palette */
   --coffee-dark: #2C1810;
   --coffee-medium: #4A2C2A;
   --coffee-light: #6B4423;
   --coffee-cream: #D4A574;
   --coffee-milk: #F5E6D3;
 
-  /* Accent Colors */
   --gold-accent: #C9A962;
   --gold-light: #E8D5A3;
   --warm-white: #FDF8F3;
   --charcoal: #1A1A1A;
 
-  /* UI Colors */
   --background: #FDF8F3;
   --foreground: #2C1810;
   --text-primary: #2C1810;
   --text-secondary: #6B4423;
   --text-muted: #8B7355;
 
-  /* Shadows */
   --shadow-sm: 0 2px 8px rgba(44, 24, 16, 0.08);
   --shadow-md: 0 4px 16px rgba(44, 24, 16, 0.12);
   --shadow-lg: 0 8px 32px rgba(44, 24, 16, 0.16);
@@ -40,7 +31,6 @@
   --font-mono: var(--font-geist-mono);
 }
 
-/* Base Styles */
 * {
   box-sizing: border-box;
 }
@@ -57,18 +47,12 @@ body {
   overflow-x: hidden;
 }
 
-/* ========================================
-   Landing Page Sections
-   ======================================== */
-
-/* Container */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
-/* Section Base */
 .section {
   padding: 5rem 0;
 }
@@ -82,7 +66,6 @@ body {
   color: var(--warm-white);
 }
 
-/* Section Headers */
 .section-header {
   text-align: center;
   margin-bottom: 3rem;
@@ -111,10 +94,6 @@ body {
 .section-subtitle-light {
   color: var(--coffee-cream);
 }
-
-/* ========================================
-   Hero Section
-   ======================================== */
 
 .hero {
   min-height: 100vh;
@@ -182,10 +161,6 @@ body {
   flex-wrap: wrap;
 }
 
-/* ========================================
-   Features Section
-   ======================================== */
-
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -232,10 +207,6 @@ body {
   line-height: 1.6;
 }
 
-/* ========================================
-   Products Section
-   ======================================== */
-
 .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -276,10 +247,6 @@ body {
 .buy-button:active {
   transform: translateY(0);
 }
-
-/* ========================================
-   About Section
-   ======================================== */
 
 .about-content {
   display: grid;
@@ -339,10 +306,6 @@ body {
   letter-spacing: 1px;
 }
 
-/* ========================================
-   Testimonials Section
-   ======================================== */
-
 .testimonials-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -396,10 +359,6 @@ body {
   font-style: italic;
 }
 
-/* ========================================
-   FAQ Section
-   ======================================== */
-
 .faq-list {
   max-width: 800px;
   margin: 0 auto;
@@ -441,10 +400,6 @@ body {
   padding-left: 2rem;
 }
 
-/* ========================================
-   CTA Section
-   ======================================== */
-
 .cta-section {
   background: linear-gradient(135deg, var(--coffee-dark) 0%, var(--coffee-medium) 100%);
   padding: 5rem 2rem;
@@ -484,10 +439,6 @@ body {
   color: var(--coffee-cream);
   margin-bottom: 2rem;
 }
-
-/* ========================================
-   Footer Override
-   ======================================== */
 
 .footer-wrapper {
   position: relative;
@@ -532,10 +483,6 @@ body {
   border-top-color: transparent !important;
   border-top-width: 0 !important;
 }
-
-/* ========================================
-   Responsive Design
-   ======================================== */
 
 @media (max-width: 768px) {
   .hero-title {
