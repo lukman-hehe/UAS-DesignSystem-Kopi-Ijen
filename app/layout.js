@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Kopi Ijen Roastery | Kopi Premium Banyuwangi",
+  title: "Kopi Ijen",
   description: "Kopi Ijen Roastery - Nikmati kopi arabica premium asli lereng Gunung Ijen, Banyuwangi. Fresh roasted, 100% biji pilihan dengan cita rasa khas Indonesia.",
   keywords: "kopi ijen, kopi banyuwangi, kopi arabica, kopi robusta, kopi premium, roastery, kopi indonesia",
   authors: [{ name: "Kopi Ijen Roastery" }],
